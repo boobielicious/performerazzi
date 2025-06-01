@@ -10,6 +10,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:js": "eslint --max-warnings 0",
+    "prettier:check": "prettier --check --ignore-unknown",
+    "prettier:fix": "prettier --write --ignore-unknown",
     "prepare": "husky"
   },
   "dependencies": {

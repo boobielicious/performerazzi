@@ -1,0 +1,39 @@
+{
+  "type": "module",
+  "engines": {
+    "node": ">=22.14.0",
+    "pnpm": ">=10.11.0"
+  },
+  "packageManager": "pnpm@10.11.0",
+  "scripts": {
+    "dev": "next dev --experimental-https",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "prepare": "husky"
+  },
+  "dependencies": {
+    "next": "15.3.3",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "19.8.1",
+    "@commitlint/config-conventional": "19.8.1",
+    "@commitlint/types": "19.8.1",
+    "@eslint/js": "9.28.0",
+    "@next/eslint-plugin-next": "15.3.3",
+    "@types/node": "22.15.29",
+    "@types/react": "19.1.6",
+    "eslint": "9.28.0",
+    "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-simple-import-sort": "12.1.1",
+    "husky": "9.1.7",
+    "lint-staged": "16.1.0",
+    "package-changed": "3.0.0",
+    "prettier": "3.5.3",
+    "prettier-plugin-tailwindcss": "0.6.12",
+    "typescript": "5.8.3",
+    "typescript-eslint": "8.33.0"
+  }
+}

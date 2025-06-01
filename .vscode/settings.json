@@ -1,0 +1,26 @@
+{
+  "css.validate": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "explicit",
+    "source.organizeImports": "never"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "editor.tabSize": 2,
+
+  "files.exclude": {
+    ".next": true
+  },
+
+  "i18nJsonEditor.forceKeyUPPERCASE": false,
+  "i18nJsonEditor.workspaceFolders": [{ "name": "messages", "path": "./src/messages" }],
+
+  "tailwindCSS.experimental.configFile": "./src/app/globals.css",
+
+  "workbench.colorCustomizations": {},
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true
+}

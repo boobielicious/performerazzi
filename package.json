@@ -30,6 +30,7 @@
     "@types/react": "19.1.6",
     "eslint": "9.28.0",
     "eslint-plugin-import": "2.31.0",
+    "eslint-plugin-prefer-arrow-functions": "3.6.2",
     "eslint-plugin-simple-import-sort": "12.1.1",
     "husky": "9.1.7",
     "lint-staged": "16.1.0",

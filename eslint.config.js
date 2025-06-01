@@ -3,6 +3,7 @@
 import eslint from '@eslint/js'
 import next from '@next/eslint-plugin-next'
 import * as pluginImport from 'eslint-plugin-import'
+import preferArrowFunctions from 'eslint-plugin-prefer-arrow-functions'
 import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import tseslint from 'typescript-eslint'
 
@@ -43,6 +44,19 @@ export default tseslint.config(
       'import/no-duplicates': 'error',
       'simple-import-sort/imports': 'error',
       'simple-import-sort/exports': 'error'
+    }
+  },
+  {
+    rules: {
+      '@typescript-eslint/explicit-function-return-type': 'error'
+    }
+  },
+  {
+    plugins: {
+      'prefer-arrow-functions': preferArrowFunctions
+    },
+    rules: {
+      'prefer-arrow-functions/prefer-arrow-functions': 'error'
     }
   }
 )

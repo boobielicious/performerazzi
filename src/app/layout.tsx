@@ -1,10 +1,10 @@
-import { ReactNode } from 'react'
+import { ReactElement, ReactNode } from 'react'
 
 interface RootLayoutProps {
   children: ReactNode
 }
 
-const RootLayout = ({ children }: RootLayoutProps) => {
+const RootLayout = ({ children }: RootLayoutProps): ReactElement => {
   return (
     <html lang="en">
       <body>{children}</body>

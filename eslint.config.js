@@ -8,12 +8,13 @@ import simpleImportSort from 'eslint-plugin-simple-import-sort'
 import tseslint from 'typescript-eslint'
 
 export default tseslint.config(
-  { ignores: ['.next/**', 'node_modules/**'] },
+  { ignores: ['.next/**', 'node_modules/**', 'src/generated/**'] },
   eslint.configs.recommended,
   {
     plugins: {
       '@next/next': next
     },
+    // @ts-expect-error - next.configs.recommended.rules is not typed
     rules: {
       ...next.configs.recommended.rules,
       ...next.configs['core-web-vitals'].rules

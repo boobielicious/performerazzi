@@ -8,6 +8,9 @@ importers:
 
   .:
     dependencies:
+      '@graphql-typed-document-node/core':
+        specifier: 3.2.0
+        version: 3.2.0(graphql@16.11.0)
       '@hey-api/client-next':
         specifier: 0.5.0
         version: 0.5.0(@hey-api/openapi-ts@0.72.0(typescript@5.8.3))

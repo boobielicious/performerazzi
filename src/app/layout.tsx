@@ -1,3 +1,5 @@
+import './globals.css'
+
 import { ReactElement, ReactNode } from 'react'
 
 interface RootLayoutProps {

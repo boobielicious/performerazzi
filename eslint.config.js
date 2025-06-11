@@ -14,6 +14,7 @@ export default tseslint.config(
     plugins: {
       '@next/next': next
     },
+    // @ts-expect-error - next.configs.recommended.rules is not typed
     rules: {
       ...next.configs.recommended.rules,
       ...next.configs['core-web-vitals'].rules

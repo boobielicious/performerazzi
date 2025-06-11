@@ -16,15 +16,26 @@
     "prepare": "husky"
   },
   "dependencies": {
+    "@hey-api/client-next": "0.5.0",
+    "@t3-oss/env-nextjs": "0.13.6",
+    "@tailwindcss/postcss": "4.1.8",
+    "dotenv": "16.5.0",
+    "graphql": "16.11.0",
     "next": "15.3.3",
+    "postcss": "8.5.4",
     "react": "19.1.0",
-    "react-dom": "19.1.0"
+    "react-dom": "19.1.0",
+    "server-only": "0.0.1",
+    "tailwindcss": "4.1.8",
+    "zod": "3.25.46"
   },
   "devDependencies": {
     "@commitlint/cli": "19.8.1",
     "@commitlint/config-conventional": "19.8.1",
     "@commitlint/types": "19.8.1",
     "@eslint/js": "9.28.0",
+    "@graphql-codegen/cli": "5.0.6",
+    "@hey-api/openapi-ts": "0.72.0",
     "@next/eslint-plugin-next": "15.3.3",
     "@types/node": "22.15.29",
     "@types/react": "19.1.6",

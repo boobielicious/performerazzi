@@ -12,8 +12,14 @@ const nextConfig: NextConfig = {
         protocol: 'https',
         hostname: new URL(env.STASH_BASE_URL).hostname
       },
-      new URL(env.STASHDB_BASE_URL),
-      new URL(env.THEPORNDB_BASE_URL)
+      {
+        protocol: 'https',
+        hostname: 'stashdb.org'
+      },
+      {
+        protocol: 'https',
+        hostname: 'theporndb.net'
+      }
     ]
   }
 }

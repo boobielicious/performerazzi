@@ -39,7 +39,7 @@
     "@graphql-codegen/cli": "5.0.7",
     "@hey-api/openapi-ts": "0.76.0",
     "@next/eslint-plugin-next": "15.3.4",
-    "@types/node": "22.15.29",
+    "@types/node": "24.0.3",
     "@types/react": "19.1.8",
     "eslint": "9.29.0",
     "eslint-plugin-import": "2.32.0",
